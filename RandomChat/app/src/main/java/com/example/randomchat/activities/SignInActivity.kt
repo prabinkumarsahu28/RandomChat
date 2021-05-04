@@ -111,7 +111,7 @@ class SignInActivity : AppCompatActivity() {
                     database.reference.child("Users").child(user.uid).setValue(myUser)
 
                     val intent = Intent(this, MainActivity::class.java)
-                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
+                    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK)
                     startActivity(intent)
                     Toast.makeText(this, "SignedIn successfully", Toast.LENGTH_SHORT).show()
 

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.PhoneNumberLoginActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="70dp"
+        android:src="@drawable/app_icon" />
+
+    <EditText
+        android:id="@+id/etUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="Enter Name :"
+        android:paddingStart="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4">
+
+        <com.hbb20.CountryCodePicker
+            android:id="@+id/countryCode"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            app:ccp_defaultNameCode="IN" />
+
+        <EditText
+            android:id="@+id/etPhoneNumber"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="3"
+            android:hint="Enter phone number :"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:paddingStart="5dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSendOtp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:text="Send OTP"
+        android:textAllCaps="false"
+        android:textColor="@color/custom_primary" />
+
+    <EditText
+        android:id="@+id/etOtp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="Enter OTP :"
+        android:paddingStart="5dp" />
+
+    <Button
+        android:id="@+id/btnProceed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:text="Proceed"
+        android:textAllCaps="false"
+        android:textColor="@color/custom_primary" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvSignUpUsingEmail"
+        android:layout_width="match_parent"
+        android:layout_margin="15dp"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="@color/chat"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnSignUpUsingEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/material_on_background_disabled"
+            android:text="SignUp using Email"
+            android:textAllCaps="false"
+            android:textColor="@color/white"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvSignInUsingEmail"
+        android:layout_width="match_parent"
+        android:layout_margin="15dp"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="@color/chat"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnSignInUsingEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/material_on_background_disabled"
+            android:text="SignIn using Email"
+            android:textAllCaps="false"
+            android:textColor="@color/white"/>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

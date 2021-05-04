@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "511790663434",
+    "project_id": "randomchat-7ada6",
+    "storage_bucket": "randomchat-7ada6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511790663434:android:e0c81e8d1a64c7facadcf3",
+        "android_client_info": {
+          "package_name": "com.example.randomchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "511790663434-cb0glctlrlhg2cp14e47nvsifn0bred2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1yfC1KZkQqzBJBKsMHi_eoI1MmnTCOUE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "511790663434-cb0glctlrlhg2cp14e47nvsifn0bred2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -7,4 +7,19 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="custom_primary">#0b6156</color>
+    <color name="custom_primary_dark">#095049</color>
+    <color name="custom_accent">#03DAC5</color>
+    <color name="custom_light_green">#e5ffcc</color>
+    <color name="spring_green">#00FF7F</color>
+    <color name="custom_light_grey">#EDEDED</color>
+    <color name="wp_green">#0b6156</color>
+    <color name="setting_icon">#0E8374</color>
+    <color name="bg">#BCBCBC</color>
+    <color name="chat">#AAAAAA</color>
+    <color name="custom_red">#9F0B0B</color>
+    <color name="status_bg">#009688</color>
+    <color name="chat_bg">#8BC34A</color>
+    <color name="fb_blue">#3c5793</color>
 </resources>

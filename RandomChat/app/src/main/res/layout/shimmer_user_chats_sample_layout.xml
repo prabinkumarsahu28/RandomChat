@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="7dp"
+    android:orientation="horizontal">
+
+    <View
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/circle_bg"/>
+
+    <LinearLayout
+        android:id="@+id/llUserChats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?selectableItemBackground"
+        android:orientation="vertical"
+        android:padding="7dp">
+        
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="19dp"
+            android:layout_margin="3dp"
+            android:background="@color/bg"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="13dp"
+            android:layout_margin="3dp"
+            android:background="@color/bg"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,16 +1,16 @@
 # Random_Chat
 
-<img src="https://www.google.com/search?q=random+chat+app&rlz=1C1CHBF_enIN893IN893&sxsrf=ALeKk00CnF0K9zFYaKUPDXdSbIyrTzK7qw:1620133326721&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiF7bX7irDwAhWy73MBHS2kC94Q_AUoAnoECAEQBA&biw=1366&bih=667#imgrc=seDVE2To9v_35M" alt="App Logo" width="200"/>
+App logo:  <img src="https://pool.img.aptoide.com/split-store/2b5725411e38df4f9c409d1a4c9fa3b2_icon.png" width="200"/>
 
-Login using phone number:  <img src="https://photos.app.goo.gl/qQUxBkhYobzunnMi7" alt="App Logo" width="200"/>
+Login using phone number:  <img src="https://photos.app.goo.gl/qQUxBkhYobzunnMi7"  width="200"/>
 
-Login using email:  <img src="https://photos.app.goo.gl/HRmBSxLkuZ4BWYsd6" alt="App Logo" width="200"/>
+Login using email:  <img src="https://photos.app.goo.gl/HRmBSxLkuZ4BWYsd6"  width="200"/>
 
-users chat screen:  <img src="https://photos.app.goo.gl/gps6Znst3MTVWh4h7" alt="App Logo" width="200"/>
+users chat screen:  <img src="https://photos.app.goo.gl/gps6Znst3MTVWh4h7"  width="200"/>
 
-users status screen:  <img src="https://photos.app.goo.gl/DMNr7tmxdyuQDnsp9" alt="App Logo" width="200"/>
+users status screen:  <img src="https://photos.app.goo.gl/DMNr7tmxdyuQDnsp9"  width="200"/>
 
-users chatting:  <img src="https://photos.app.goo.gl/iHs5DQ2XKof1njN38" alt="App Logo" width="200"/>
+users chatting:  <img src="https://photos.app.goo.gl/iHs5DQ2XKof1njN38"  width="200"/>
 
 ![Visitor Count](https://profile-counter.glitch.me/prabinkumarsahu28/count.svg)
 

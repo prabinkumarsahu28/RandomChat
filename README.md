@@ -1,11 +1,6 @@
 # Random_Chat
 
 <table>
-  <tr>
-    <td>App logo:  <img src="https://pool.img.aptoide.com/split-store/2b5725411e38df4f9c409d1a4c9fa3b2_icon.png" width="200"/></td>
-    <td>Login using phone number:  <img src="https://i.postimg.cc/CLb9r4mM/Screenshot-2021-05-04-18-37-15-869-com-example-randomchat.jpg" width="200"/></td>
-  </tr>
-  
   
   <tr>
     <td>App logo:  <img src="https://pool.img.aptoide.com/split-store/2b5725411e38df4f9c409d1a4c9fa3b2_icon.png" width="200"/></td>
